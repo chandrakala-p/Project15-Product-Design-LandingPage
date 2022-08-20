@@ -321,3 +321,157 @@ footer {
     align-items: center;
     gap: 30px;
 }
+
+@media screen and (max-width:750px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header {
+        height: max-content;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .header-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .header-text img {
+        width: 50%;
+        height: 240px;
+        padding-top: 60px;
+    }
+
+    .text-detail {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding-top: 0;
+    }
+
+    .text-detail .text-detail h1 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .text-detail p {
+
+        width: 100%;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        position: initial;
+
+    }
+
+    .bg {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+
+
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        gap: 20px;
+        width: 100%;
+        position: initial;
+
+    }
+
+    .cleint-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+
+    }
+
+
+
+    .project-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .last-section {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: max-content;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .last-section h1,
+    p {
+        width: 100%;
+    }
+
+    .logo-2 {
+        display: none;
+    }
+
+    footer {
+        width: 100%;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+
+}
