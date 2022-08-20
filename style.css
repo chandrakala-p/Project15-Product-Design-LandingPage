@@ -438,6 +438,18 @@ footer {
         justify-content: center;
     }
 
+    .project-1 {
+        width: 100%;
+    }
+
+    .project {
+        width: 100%
+    }
+
+    .project img {
+        width: 100%;
+    }
+
     .last-section {
         width: 100%;
         padding: 0;
